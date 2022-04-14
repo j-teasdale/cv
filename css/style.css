@@ -1,0 +1,104 @@
+/* how to add comments: 'command + /' */
+
+body{
+  background-color: #0C1625;
+  color: white;
+  margin: 0;
+  font-family: optima;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* header styles */
+
+header{
+  background-color: #2E4972;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+header h1{
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  font-style: italic;
+  margin: 15px;
+}
+
+header img{
+  border-radius: 150px;
+  width: 250px;
+  border: 5px solid lightgray;
+}
+
+/* main styles */
+
+main{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main img{
+  max-width: 100%;
+}
+
+h3 {
+  margin-top: 10;
+  margin-bottom: 10px;
+}
+
+a{
+  color: white;
+}
+a:hover{
+  color: lightgray;
+}
+
+
+/* table styles */
+
+
+
+
+footer{
+  background-color: #2E4972;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+footer p {
+  font-style: italic;
+}
+
+footer a{
+  color: lightgray;
+}
+footer a:hover{
+  color: lightblue;
+}
+
+.box {
+  background: #2E4972;
+  padding: 20px 20px;
+}
+
+.box nav {
+  text-align: center;
+}
