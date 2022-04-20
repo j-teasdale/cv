@@ -1,7 +1,7 @@
 /* how to add comments: 'command + /' */
 
 body{
-  background-color: #0C1625;
+  background-color: #16213E;
   color: white;
   margin: 0;
   font-family: optima;
@@ -9,7 +9,7 @@ body{
   line-height: 30px;
 }
 
-/* header styles */
+/********** header styles **********/
 
 header{
   background-color: #2E4972;
@@ -28,13 +28,13 @@ nav a {
   margin: 15px;
 }
 
-header img{
-  border-radius: 150px;
-  width: 250px;
-  border: 5px solid lightgray;
+img {
+  width: 200px;
+  border: 2px solid lightgray;
+  border-radius: 100%;
 }
 
-/* main styles */
+/********** main styles **********/
 
 main{
   max-width: 800px;
@@ -42,10 +42,17 @@ main{
   padding: 15px 15px;
 }
 
+hr {
+  border-style: dotted none none;
+  border-width: 3px;
+  color: white;
+  width: 30%;
+}
+
 h2 {
-  text-align: center;
-  margin-top: 30px;
   margin-bottom: 15px;
+  margin-top: 30px;
+  text-align: center;
 }
 
 ul {
@@ -70,10 +77,14 @@ a:hover{
 }
 
 
-/* table styles */
+/********** table styles **********/
+
+table {
+
+}
 
 
-
+/********** footer styles **********/
 
 footer{
   background-color: #2E4972;
@@ -97,6 +108,7 @@ footer a:hover{
 .box {
   background: #2E4972;
   padding: 20px 20px;
+  margin: 80px;
 }
 
 .box nav {
