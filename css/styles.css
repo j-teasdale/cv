@@ -18,8 +18,12 @@ header{
   padding-bottom: 30px;
 }
 
-header h1{
+h1{
   color: white;
+  text-align: center;
+}
+
+nav {
   text-align: center;
 }
 
@@ -32,6 +36,16 @@ img {
   width: 200px;
   border: 2px solid lightgray;
   border-radius: 100%;
+}
+
+.bio-box {
+  background: #2E4972;
+  margin: 0 80px;
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  width: auto;
+  padding: 10px;
 }
 
 /********** main styles **********/
@@ -51,9 +65,40 @@ hr {
 
 h2 {
   margin-bottom: 15px;
-  margin-top: 30px;
+  margin-top: 0;
   text-align: center;
 }
+
+.skillsbox {
+  background: #2E4972;
+  padding: 20px 20px;
+  margin: 0 80px;
+}
+.hard-skills {
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  width: auto;
+  padding: 10px;
+}
+
+.soft-skills {
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  width: auto;
+  padding: 10px;
+}
+
+.box {
+  margin: 0 80px;
+  max-width: 800px;
+}
+
+.box nav {
+  text-align: center;
+}
+
 
 ul {
   margin-top: 10px;
@@ -83,6 +128,9 @@ table {
 
 }
 
+.work-experience-table {
+
+}
 
 /********** footer styles **********/
 
@@ -103,14 +151,4 @@ footer a{
 }
 footer a:hover{
   color: lightblue;
-}
-
-.box {
-  background: #2E4972;
-  padding: 20px 20px;
-  margin: 80px;
-}
-
-.box nav {
-  text-align: center;
 }
